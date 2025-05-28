@@ -27,14 +27,14 @@ app.use(session({
 }));
 app.use(cors({
   origin: 'https://suivserse.co/meta',
-  methods: ['GET', 'POST']
+  credentials: true
 }));
 app.use(express.json());
 
 const io = socketIo(server, {
   cors: {
     origin: 'https://suivserse.co/meta',
-    methods: ['GET', 'POST']
+    credentials: true
   }
 });
 function auth(req, res, next) {
