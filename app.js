@@ -26,14 +26,14 @@ app.use(session({
   }
 }));
 app.use(cors({
-  origin: 'https://suivserse.co',
+  origin: '*',
   credentials: true
 }));
 app.use(express.json());
 
 const io = socketIo(server, {
   cors: {
-    origin: 'https://suivserse.co',
+    origin: '*',
     credentials: true
   }
 });
