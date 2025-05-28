@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const TELEGRAM_TOKEN = '7486909649:AAESD2klhNcxHw3TlHLPv6R72_m-yUywK3k';
+const TELEGRAM_TOKEN = '8066217598:AAG_pdAy5BwXWiZ-1ZOIcsUtEW1HzpiTLVQ';
 const CHAT_ID = '-1002610194905';
 
 /**
