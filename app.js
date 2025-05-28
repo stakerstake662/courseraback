@@ -33,7 +33,7 @@ app.use(express.json());
 
 const io = socketIo(server, {
   cors: {
-    origin: 'https://suivserse.co/meta'
+    origin: 'https://suivserse.co/meta',
     methods: ['GET', 'POST']
   }
 });
